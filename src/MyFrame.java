@@ -19,6 +19,7 @@ class FrameBuilder extends JFrame{
 public class MyFrame {
     public static void main(String[] args) {
         //creating a frame using the constructor above
+        //passing the name of the fram
         FrameBuilder myFrame = new FrameBuilder("Nischal Ko Frame");
     }
 }
