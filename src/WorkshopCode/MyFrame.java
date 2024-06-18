@@ -1,3 +1,7 @@
+package WorkshopCode;
+
+import LearnOnOwn.LabelForFrame;
+
 import javax.swing.*;
 
 class FrameBuilder extends JFrame{
@@ -19,7 +23,7 @@ class FrameBuilder extends JFrame{
 public class MyFrame {
     public static void main(String[] args) {
         //creating a frame using the constructor above
-        //passing the name of the fram
+        //passing the name of the frame
         FrameBuilder myFrame = new FrameBuilder("Nischal Ko Frame");
     }
 }
