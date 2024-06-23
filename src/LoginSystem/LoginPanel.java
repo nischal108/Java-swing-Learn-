@@ -17,7 +17,10 @@ class LoginPanel extends JPanel {
     Connection c = DatabaseConnection.connect();
     Statement st = null;
 
-    LoginPanel() {
+    JFrame parentFrame;
+
+    LoginPanel(JFrame frame) {
+        this.parentFrame = frame;
         // Set the layout of the panel to FlowLayout
         setLayout(new FlowLayout());
 
@@ -57,6 +60,11 @@ class LoginPanel extends JPanel {
 
             if (rs.next()) {
                 JOptionPane.showMessageDialog(this, "Login successful!");
+                // Replace the current panel with the new panel
+                parentFrame.setContentPane(new RegisterForm());
+                parentFrame.pack();  // Adjust the frame size based on the new content
+                parentFrame.revalidate();
+
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid username or password.");
             }
