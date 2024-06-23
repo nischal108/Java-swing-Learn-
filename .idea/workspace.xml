@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f53fdda-6175-4c71-abe1-d4c7aff0f1ea" name="Changes" comment="Frame Creation">
-      <change afterPath="$PROJECT_DIR$/src/LearnOnOwn/LabelForFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/LoginPanel.java" afterDir="false" />
+    <list default="true" id="5f53fdda-6175-4c71-abe1-d4c7aff0f1ea" name="Changes" comment="Login Frame Creation">
+      <change afterPath="$PROJECT_DIR$/src/LoginSystem/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnOnOwn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkshopCode/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/LoginPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +36,23 @@
     &quot;accountId&quot;: &quot;0666e5c6-99cd-4e30-80a3-19c03abd1aff&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2hzb7d9SBTLOiOUEtttNi2pfPCk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DatabaseConnection.executor": "Run",
     "Application.Frame.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MyFrame.executor": "Run",
@@ -104,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718602273816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login Frame Creation">
+      <option name="closed" value="true" />
+      <created>1718715814897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718715814898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frame Creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frame Creation" />
+    <MESSAGE value="Login Frame Creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Frame Creation" />
   </component>
 </project>
