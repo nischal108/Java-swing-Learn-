@@ -17,10 +17,10 @@ class FrameCreator extends JFrame {
         setLocationRelativeTo(null);
 
         //don't allow user to resize
-        setResizable(false);
+        setResizable(true);
 
         // Create an instance of the LoginPanel and add it to the frame
-        add(new LoginPanel());
+        add(new LoginPanel(this));
 
 
     }

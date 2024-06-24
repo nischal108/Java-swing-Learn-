@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f53fdda-6175-4c71-abe1-d4c7aff0f1ea" name="Changes" comment="Login Frame Creation">
+    <list default="true" id="5f53fdda-6175-4c71-abe1-d4c7aff0f1ea" name="Changes" comment="Student Registration Created">
       <change afterPath="$PROJECT_DIR$/src/LoginSystem/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginSystem/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/LoginPanel.java" afterDir="false" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718715814898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Student Registration Created">
+      <option name="closed" value="true" />
+      <created>1719156259800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719156259801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frame Creation" />
     <MESSAGE value="Login Frame Creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Frame Creation" />
+    <MESSAGE value="Student Registration Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student Registration Created" />
   </component>
 </project>
