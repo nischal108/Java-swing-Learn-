@@ -19,11 +19,11 @@ public class RegisterForm extends JPanel {
         this.connection = DatabaseConnection.connect(); // Assign database connection to instance variable
 
         // Initialize components
-        rollNoField = new JTextField(20);
-        nameField = new JTextField(20);
-        addressField = new JTextField(20);
-        phoneField = new JTextField(20);
-        emailField = new JTextField(20);
+        rollNoField = new JTextField(15); // Reduced to 15 columns
+        nameField = new JTextField(15);   // Reduced to 15 columns
+        addressField = new JTextField(15); // Reduced to 15 columns
+        phoneField = new JTextField(15);   // Reduced to 15 columns
+        emailField = new JTextField(15);   // Reduced to 15 columns
 
         maleRadio = new JRadioButton("Male");
         femaleRadio = new JRadioButton("Female");
@@ -33,7 +33,7 @@ public class RegisterForm extends JPanel {
 
         submitButton = new JButton("Submit");
 
-        // Configure layout
+        // Configure layout using GridLayout
         setLayout(new GridLayout(7, 2, 10, 10)); // 7 rows, 2 columns, gaps of 10
 
         // Add components to the panel
@@ -105,5 +105,13 @@ public class RegisterForm extends JPanel {
         femaleRadio.setSelected(false);
         phoneField.setText("");
         emailField.setText("");
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Register Form");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().add(new RegisterForm());
+        frame.pack();
+        frame.setVisible(true);
     }
 }
